@@ -80,3 +80,19 @@ bank_account = 0;
 for(let i = 1; i<= 100; i++) bank_account+=i*2;
 console.log("$" + bank_account);
 
+
+// III. Arrays & Control flow
+// A. Talk about it:
+// 1. What are the things in an array called? A: They are called an "element".
+// 2. Do Arrays guarantee those things will be in order? A: They are set in the order they were placed in.
+// 3. What real-life thing could you model with an array? A: Bookbag containing books, Shopping cart containing store items, etc.
+
+// B. Easy Does It
+let quotes = ["Hello World!", "How are you World!", "Good bye World!"];
+
+// C. Accessing elements
+const randomThings = [1, 10, "Hello", true];
+console.log("Access first element:", randomThings[0]);
+randomThings[2] = "World";
+console.log(randomThings);
+
