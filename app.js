@@ -51,3 +51,23 @@ let age = 25;
 if(age >= 16) console.log("Here are the keys!");
 else console.log("Sorry, you're too young.");
 
+
+// II. Loops
+// A. The basics
+for(let i = 0; i <= 10; i++) console.log(i);
+
+for(let i = 0; i<= 400; i++) if(i>=10) console.log(i);
+
+for(let i = 0; i<= 4000; i++) if(i>=12 && i%3 === 0) console.log(i);
+
+// B. Get even
+for(let i = 1; i <= 100; i++) if(i%2 === 0) console.log(i, "<-- is an even number");
+
+// C. Give me Five
+for(let i = 0; i<= 100; i++) {
+    if(i!=0){
+        if(i%3 === 0) console.log(`I found a ${i}. Three is a crowd`);
+        if(i%5 === 0 && i != 0) console.log(`I found a ${i}. High five!`);
+    }
+    
+}
