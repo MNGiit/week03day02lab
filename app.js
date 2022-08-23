@@ -238,6 +238,13 @@ class User {
         this.age = age;
         this.purchased = purchased;
     }
+    userUpdate() {
+        this.age++;
+        this.name = this.name.toUpperCase();
+    }
+    printPurchased() {
+        for(let i = 0; i < this.purchased.length; i++) console.log(this.purchased[i]);
+    }
 }
 let user = new User("Bob", "Bob@gmail.com", 40, ["Nintendo Switch", "Super Smash Bros"]);
 console.log(user);
@@ -269,4 +276,18 @@ console.log(user.friend.purchased[1]);
 for(let i = 0; i < user.purchased.length; i++) console.log(user.purchased[i]);
 for(let i = 0; i < user.friend.purchased.length; i++) console.log(user.friend.purchased[i]);
 
+// G. Functions can operate on objects
+// const updateUser = () => {
+//     user.age++;
+//     user.name.toUpperCase();
+// }
+user.userUpdate();
+console.log(user.age, user.name);
+// user.friend.printPurchased();
 
+const oldAndLoud = (person) => {
+    person.age++;
+    person.name = person.name.toUpperCase();
+}
+oldAndLoud(friend);
+console.log(friend);
