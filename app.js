@@ -15,7 +15,7 @@ firstVariable = 100;
 let secondVariable = firstVariable;
 secondVariable = "Something";
 // 6. What is teh value of firstVariable? A: It should still be 100.
-let yourName = "Mohammed Noori";
+let yourName = "President King";
 let str = "Hello, my name is: ";
 concatStr = (str1, str2) => {
     return str1 + str2;
