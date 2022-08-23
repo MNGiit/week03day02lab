@@ -200,3 +200,11 @@ const getTwoLengths = (str1, str2) => {
     return arr;
 }
 console.log(getTwoLengths("Hank", "Hippopopalous"));
+
+// F. getMultipleLengths
+const getMultipleLengths = (arr) => {
+    let count = [];
+    for(let i = 0; i < arr.length; i++) count.push(arr[i].length);
+    return count;
+}
+console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
