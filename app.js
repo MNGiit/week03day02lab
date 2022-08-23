@@ -253,3 +253,17 @@ user.purchased.push("peace of mind");
 user.purchased.push("Merino jodhpurs");
 console.log(user.purchased[4]);
 
+// E. Object within object
+let friend = new User("Grace Hopper", "grace@gmail.com", 85, []);
+friend.location = "France";
+user.friend = friend;
+console.log(user.friend.name);
+console.log(user.friend.location);
+user.friend.age = 55;
+console.log(user.friend.age);
+user.friend.purchased.push("The One Ring");
+user.friend.purchased.push("A latte");
+console.log(user.friend);
+console.log(user.friend.purchased[1]);
+
+
