@@ -180,3 +180,7 @@ console.log(printGreeting("Slimer"));
 // B. printCool
 const printCool = (name) => {return `${name} is cool`};
 console.log(printCool("Captain Reynolds"));
+
+// C. calculateCube
+const calculateCube = (num) => {return num * num * num};
+console.log(calculateCube(5));
