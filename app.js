@@ -245,3 +245,5 @@ user.email = "Bob@yahoo.com";
 console.log(user.email);
 user.age++;
 console.log(user.age);
+user.location = "Canada";
+console.log(user.location);
