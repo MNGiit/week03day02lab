@@ -176,3 +176,7 @@ console.log(thomsCloset[1][2]);
 // A. printGreeting
 const printGreeting = (name) => {return `Hello there, ${name}!`};
 console.log(printGreeting("Slimer"));
+
+// B. printCool
+const printCool = (name) => {return `${name} is cool`};
+console.log(printCool("Captain Reynolds"));
