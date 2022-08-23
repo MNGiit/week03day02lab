@@ -228,3 +228,20 @@ const printLongestWord = (arr) => {
     return longestWord;
 }
 console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
+
+// Objects
+// A. Make a user object
+class User {
+    constructor(name, email, age, purchased) {
+        this.name = name;
+        this.email = email;
+        this.age = age;
+        this.purchased = purchased;
+    }
+}
+let user = new User("Bob", "Bob@gmail.com", 40, ["Nintendo Switch", "Super Smash Bros"]);
+console.log(user);
+user.email = "Bob@yahoo.com";
+console.log(user.email);
+user.age++;
+console.log(user.age);
