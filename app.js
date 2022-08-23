@@ -104,3 +104,16 @@ console.log(ourClass[4]);
 ourClass.push("Cloud City");
 console.log(ourClass);
 
+// E. Mix It Up
+const myArray = [5, 10, 500, 20];
+myArray.push("Aegon");
+myArray.push("Another string");
+console.log(myArray);
+myArray.shift();
+console.log(myArray);
+myArray.pop();
+console.log(myArray);
+myArray.reverse();
+console.log(myArray);
+// 5. Did you mutate the array? What does mutate mean? Did the .reverse() method return anything? A: Yes the array mutated. Mutate means changing the data. The method, .reverse(), returns the mutated array.
+
