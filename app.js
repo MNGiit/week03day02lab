@@ -247,3 +247,9 @@ user.age++;
 console.log(user.age);
 user.location = "Canada";
 console.log(user.location);
+
+user.purchased.push("carbohydates");
+user.purchased.push("peace of mind");
+user.purchased.push("Merino jodhpurs");
+console.log(user.purchased[4]);
+
