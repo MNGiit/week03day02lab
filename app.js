@@ -121,3 +121,9 @@ console.log(myArray);
 let myInt = 1;
 if(myInt<100) console.log("little number");
 else if(myInt>=100) console.log("big number");
+
+// G. Monkey in the middle
+myInt = 11;
+if(myInt<5) console.log("little number");
+else if(myInt>10) console.log("big number");
+else console.log("monkey");
