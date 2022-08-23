@@ -96,3 +96,11 @@ console.log("Access first element:", randomThings[0]);
 randomThings[2] = "World";
 console.log(randomThings);
 
+// D. Change values
+const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
+// 1. What would you write to access the 3rd element of the array? A: ourClass[2]
+ourClass[4] = "Octocat"
+console.log(ourClass[4]);
+ourClass.push("Cloud City");
+console.log(ourClass);
+
