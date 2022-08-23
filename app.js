@@ -184,3 +184,10 @@ console.log(printCool("Captain Reynolds"));
 // C. calculateCube
 const calculateCube = (num) => {return num * num * num};
 console.log(calculateCube(5));
+
+// D. isVowel
+const isVowel = (c) => {
+    let vowels = ["a", "e", "i", "o", "u"]; // and sometimes y
+    return vowels.includes(c);
+}
+console.log(isVowel("a"));
