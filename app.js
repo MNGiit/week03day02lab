@@ -208,3 +208,13 @@ const getMultipleLengths = (arr) => {
     return count;
 }
 console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
+
+// G. maxOfThree
+const maxOfThree = (x, y, z) => {
+    let max = 0;
+    if(x > y) max = x;
+    else max = y;
+    if(max < z) max = z;
+    return max;
+}
+console.log(maxOfThree(6, 9, 1));
