@@ -117,3 +117,7 @@ myArray.reverse();
 console.log(myArray);
 // 5. Did you mutate the array? What does mutate mean? Did the .reverse() method return anything? A: Yes the array mutated. Mutate means changing the data. The method, .reverse(), returns the mutated array.
 
+// F. Biggie Smalls
+let myInt = 1;
+if(myInt<100) console.log("little number");
+else if(myInt>=100) console.log("big number");
