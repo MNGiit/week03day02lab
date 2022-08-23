@@ -171,3 +171,8 @@ console.log(thomsCloset[2][0]);
 console.log("Thom is looking fierce in a", thomsCloset[0][0] + ",", thomsCloset[1][1] + ", and", thomsCloset[2][1] + "!");
 thomsCloset[1][2] = "Footie Pajamas";
 console.log(thomsCloset[1][2]);
+
+// IV. Functions
+// A. printGreeting
+const printGreeting = (name) => {return `Hello there, ${name}!`};
+console.log(printGreeting("Slimer"));
