@@ -191,3 +191,12 @@ const isVowel = (c) => {
     return vowels.includes(c);
 }
 console.log(isVowel("a"));
+
+// E. getTwoLengths
+const getTwoLengths = (str1, str2) => {
+    let arr = [];
+    arr.push(str1.length);
+    arr.push(str2.length);
+    return arr;
+}
+console.log(getTwoLengths("Hank", "Hippopopalous"));
